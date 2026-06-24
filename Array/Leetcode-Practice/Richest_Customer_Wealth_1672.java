@@ -15,7 +15,7 @@ public class Richest_Customer_Wealth_1672 {
     }
     public static void main(String[] args) {
         Richest_Customer_Wealth_1672 obj = new Richest_Customer_Wealth_1672();
-        int[][] accounts = { { 1, 2, 3 }, { 3, 2, 2 } };
+        int[][] accounts = { { 1, 2, 3 }, { 3, 2, 1 } };
         int result = obj.maximumWealth(accounts);
         System.out.println("Richest Customer Wealth: " + result);               
     }
